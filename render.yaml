@@ -3,7 +3,7 @@ services:
   - type: web
     name: UPLOADER-BOT-V3
     env: python
-    startCommand: python3 bot.py
+    startCommand: python bot.py
     buildCommand: pip3 install -r requirements.txt
     repo: https://github.com/dockduck/UPLOADER-BOT-V3.git # optional
     region: oregon # optional (defaults to oregon)
